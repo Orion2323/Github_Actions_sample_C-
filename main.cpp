@@ -6,7 +6,7 @@ using namespace std;
 int main() {
     ifstream inFS("../data/input.txt");
 
-    if (inFS.good()) {
+    if (inFS.is_open()) {
         string str;
         getline(inFS,str,'\n');
 
