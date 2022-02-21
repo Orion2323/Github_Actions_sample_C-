@@ -4,13 +4,13 @@
 using namespace std;
 
 int main() {
-    ifstream inFS("../input.txt");
+    ifstream inFS("../data/input.txt");
 
     if (inFS.good()) {
         string str;
         getline(inFS,str,'\n');
 
-        ofstream inOF("../output.txt");
+        ofstream inOF("../data/output.txt");
         inOF << "This is another string" << endl;
     } else {
         cout << "File not open!" << endl;

@@ -3,8 +3,8 @@ on: [push]
 
 env:
   EXE_NAME: Github_actions
-  INPUT_FILES: input.txt
-  OUTPUT_FILES: output.txt
+  INPUT_FILES: data/input.txt
+  OUTPUT_FILES: data/output.txt
 
 jobs:
   build:
