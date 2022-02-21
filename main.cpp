@@ -3,8 +3,8 @@
 
 using namespace std;
 
-int main() {
-    ifstream inFS("../data/input.txt");
+int main(int argc,char** argv) {
+    ifstream inFS(argv[1]);
 
     if (inFS.is_open()) {
         string str;
